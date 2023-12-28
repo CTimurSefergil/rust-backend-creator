@@ -5,14 +5,18 @@ use reqwest::Client;
 use serde::de::DeserializeOwned;
 use std::fs;
 
+//Write your own path
 const CODE_TEMPLATE_PATH: &str =
     "/Users/shaun/Code/TUTORIALS/rust_autogpt/web_template/src/code_template.rs";
 
+//Write your own path
 pub const WEB_SERVER_PROJECT_PATH: &str = "/Users/shaun/Code/TUTORIALS/rust_autogpt/web_template/";
 
+//Write your own path
 pub const EXEC_MAIN_PATH: &str =
     "/Users/shaun/Code/TUTORIALS/rust_autogpt/web_template/src/main.rs";
 
+//Write your own path
 const API_SCHEMA_PATH: &str =
     "/Users/shaun/Code/TUTORIALS/rust_autogpt/auto_gippity/schemas/api_schema.json";
 
